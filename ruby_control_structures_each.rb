@@ -43,3 +43,38 @@
 #     end.join
 #   end
 # end
+
+# Ruby - Enumerable - reduce
+# def sum_terms(n)
+#     (1..n).map {|x| x * x + 1}.reduce(0, :+)
+# end
+
+# Ruby Enumerable - any, all, none, find
+# def func_any(hash)
+#     hash.any? {|k, v| k.is_a?(Integer)}
+# end
+#
+# def func_all(hash)
+#     hash.all? { |k, v| v < 10 }
+# end
+#
+# def func_none(hash)
+#     hash.none? { |k, v| v.nil? }
+# end
+#
+# def func_find(hash)
+#     hash.find do |k, v|
+#         (k.is_a?(Integer) && (v.is_a?(Integer) && v < 20)) || (k.is_a?(String) && (v.is_a?(String) && v[0] == "a"))
+#     end
+# end
+
+# Ruby - Enumerable - group_by
+# def group_by_marks(marks, n)
+#   marks.group_by do |k, v|
+#     if (v > n)
+#       key="Passed"
+#     else
+#       key="Failed"
+#     end
+#   end
+# end
